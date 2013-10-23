@@ -94,7 +94,7 @@ class CloudWatchConnection(AWSQueryConnection):
         """
         Init method to create a new connection to EC2 Monitoring Service.
 
-        B{Note:} The host argument is overridden by the host specified in the
+        .. note:: The host argument is overridden by the host specified in the
         boto configuration file.
         """
         if not region:
